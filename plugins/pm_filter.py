@@ -140,20 +140,20 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                    InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
                 ]
             )
         else:
             btn.insert(0, 
                 [                  
-                    InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                                
+                    InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                                
                 ]
             )            
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
             ]
         )
     try:
@@ -306,14 +306,14 @@ async def language_check(bot, query):
             if settings['auto_delete']:
                 btn.insert(0, 
                     [
-                        InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                        InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
                     ]
                 )
 
             else:
                 btn.insert(0, 
                     [
-                        InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                        InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
                     ]
                 )
                     
@@ -321,7 +321,7 @@ async def language_check(bot, query):
             await save_group_settings(query.message.chat.id, 'auto_delete', True)
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                    InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
                 ]
             )
                 
@@ -1562,20 +1562,20 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                    InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
                 ]
             )
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                    InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
                 ]
             )       
     except KeyError:
         await save_group_settings(message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🔥 porn videos 🔥, url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
+                InlineKeyboardButton(f'🔥 porn videos 🔥', url=f"https://t.me/+Ce98xoyvoLcwYThl")                    
             ]
         )
 
