@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /supraspeed
-WORKDIR /supraspeed 
+RUN mkdir /supraspeed1
+WORKDIR /supraspeed1
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
